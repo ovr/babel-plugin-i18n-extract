@@ -1,0 +1,19 @@
+{
+  "name": "@interpals/babel-plugin-i18n-extract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && mkdir lib && babel src --out-dir lib",
+    "version": "npm run build && pkgfiles"
+  },
+  "author": "Dmitry Patsura <talk@dmtry.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "flow-bin": "^0.56.0"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
