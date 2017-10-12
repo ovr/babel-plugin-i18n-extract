@@ -22,7 +22,6 @@ export default function ({ types: t }) {
             if (opts.dir && opts.dir.length > 0) {
                 const {basename, filename} = file.opts;
 
-
                 const messagesFilename = p.join(
                     opts.dir,
                     'en' + '.js'
